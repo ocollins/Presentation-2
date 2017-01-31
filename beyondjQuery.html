@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>Beyond jQuery</title> 
+  <link href="BeyondjQuery.css" rel="stylesheet" type="text/css"/>
+  
+  <script   src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </script>
+</head> 
+
+<body>
+  <div id="container">
+  <header>
+    <h2>Enterprise Java</h2>
+    <h1>Beyond jQuery</h1>
+  </header>
+    
+    <div id="good">
+    <ul>
+      <p id="point">The good:</p>
+      <li>JavaScript Frameworks like <strong>jQuery</strong> help you out by   
+          abstracting hard and complex code.</li>
+      <li>Solid support for cross-browser issues.</li>
+      <li>Increased speed to market.</li>
+      <li>Wide range of plugins available for various specific needs.</li>
+      <li>AJAX support.</li>
+      <li>Great documentation and tutorials.</li>
+    </ul>
+    </div>
+   
+    <div id="example">
+    <table>
+      <tr>
+        <td id="leftcell">$(el).fadeIn();</td>
+        <td id="rightcell"><strong>function</strong> fadeIn(el) { <br />
+            <span>el.style.opacity = 0;</span> <br />
+            <span>var last = +new Date(); </span><br />
+            <span>var tick = function() { </span><br />
+            <span>el.style.opacity = +el.style.opacity + </span><br /> 
+            <span>(new Date() - last) / 400; </span><br />
+            <span>last = +new Date(); </span><br />
+           <span>if (+el.style.opacity &lt; 1) { </span><br />
+           <span>(window.requestAnimationFrame &amp; &amp; </span><br /> <span>requestAnimationFrame(tick)) || setTimeout(tick, 16);
+          <span> }</span>
+           }; <br />
+           <strong>tick(); </strong><br />
+           } <br />
+      <strong>fadeIn(el); </strong>
+      </td>
+      </tr>  
+    </table>
+    </div>
+    
+    <div id="notsogood">
+    <ul>
+      <p id="point">The "not so good" and why solid understanding of Vanilla  
+          JavaScript is important:</p>
+      <li>jQuery has limitations where in more complex projects JS will be still    
+          needed.</li>
+      <li>jQuery bugs and performance issues (hide() and show()).</li>
+      <li>Hard to keep up with new JS Frameworks. More than 10 new JS Frameworks  
+          made the news in the past 5 years.</li>
+      <li>Solid understanding of Vanilla JavaScript will help to figure out 
+          problems with your JS Framework. </li>
+      <li>Employers are looking for good knowledge of JS.</li>
+    </ul>
+    </div>
+    
+    <div id="resources">
+    <ul>
+      <p id="point">Resources:</p>
+      <li><a href="https://github.com/Beyond-jQuery/exercise">Exercise from the 
+         book by Ray Nicholus <i>"Beyond jQuery"</i></a></li>
+      <li><a href="http://a.co/6erYkum">The book on Amazon</a></li>
+      <li><a  href="https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks">
+      A blog post on why learning JS is important.</a></li>
+    </ul>
+    </div>
+    
+    
+</div>
+</div>
