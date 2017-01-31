@@ -14,5 +14,5 @@ Why have we been using jQuery, and why is it important to grow beyond this libra
 
 ### Feedback
 
-[Link to the peer feedback form](Student/Extracurriculars/OlenaCollins/Presentation2/Feedback.md)
+[Link to the peer feedback form](https://github.com/MadJavaEntSpring2017/Student/blob/master/Extracurriculars/OlenaCollins/Presentation2/Feedback.md)
 
